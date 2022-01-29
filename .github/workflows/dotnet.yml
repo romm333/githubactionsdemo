@@ -25,4 +25,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: dotnet publish
       run: |
-        dotnet publish -c Release c dotnetcorewebapi
+        dotnet publish -c Release -c dotnetcorewebapi
